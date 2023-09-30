@@ -5,12 +5,7 @@ elements. Additionally, the code is importing the `React` object from the `react
 necessary for creating React components. Lastly, the code is importing a CSS file named
 `contact.css` which contains styles specific to the Contact component. */
 import React, { useState } from "react";
-import {
-  FaEnvelopeOpen,
-  FaPhoneSquareAlt,
-  FaTwitter,
-  FaTelegram,
-} from "react-icons/fa";
+import { FaPhoneSquareAlt, FaTwitter, FaTelegram } from "react-icons/fa";
 import { FiSend } from "react-icons/fi";
 import "./contact.css";
 
@@ -107,10 +102,10 @@ const Contact = () => {
           </p>
           <div className="contact__info">
             <div className="info__item">
-              <FaEnvelopeOpen className="info__icon" />
+              <FaTelegram className="info__icon" />
               <div>
                 <span className="info__title">Telegram</span>
-                <a href="t.me/unicornMish">
+                <a href="https://t.me/unicornMish">
                   <h4 className="info__desc">t.me/unicornMish</h4>
                 </a>
               </div>
@@ -127,7 +122,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact__socials">
-            <a href="t.me/unicornMish" className="contact__social-link">
+            <a href="https://t.me/unicornMish" className="contact__social-link">
               <FaTelegram />
             </a>
             <a
